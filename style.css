@@ -1,0 +1,119 @@
+/* nav section start */
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: black;
+   
+}
+.left-top{
+    display: flex;
+  align-items: center;
+}
+.right-top{
+    display: flex;
+    gap: 7px;
+}
+.img-pr{
+    color: white;
+}
+.phone{
+    color: white;
+}
+.email{
+    color: white;
+    margin-right: 6px;
+}
+.nav-items{
+    display: flex;
+    padding-left: 400px;
+    gap: 15px;
+    background-color: rgb(105, 44, 44);
+    
+}
+.one{
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* nav section end */
+/* header container start */
+.header{
+    background-color: red;
+    margin-bottom: 40px;
+}
+.middle-page{
+    margin-bottom: 50px;
+}
+.first-line{
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-left: 350px;
+}
+.second-line{
+    color: antiquewhite;
+    padding-left: 470px;
+}
+.third-line{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+.button{
+    padding: 8px 8px;
+    color:red;
+    font-size: large;
+}
+.middle-page{
+    display: flex;
+    justify-content: space-between;
+}
+.sentence-one{
+    padding-bottom: 15px;
+    padding-left: 80px;
+    color: red;
+}
+.products{
+    background-color: whitesmoke;
+}
+.description{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.product-first{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   object-fit: cover;
+   width: fit-content;
+   padding-left: 70px;
+}
+.product-second{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+/* header container end*/
+/* footer container start */
+.footer-first{
+    background-color: black;
+    color: white;
+    padding-left: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-second{
+    background-color: var(--background-color);
+    height: 350px;
+}
+
+/* footer container end */
+
